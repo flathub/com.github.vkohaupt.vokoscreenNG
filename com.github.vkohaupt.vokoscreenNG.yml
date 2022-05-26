@@ -48,7 +48,7 @@ modules:
       - install -Dm644 applications/vokoscreenNG.desktop ${FLATPAK_DEST}/share/applications/vokoscreenNG.desktop
       - install -Dm644 ../vokoscreenNG.appdata.xml ${FLATPAK_DEST}/share/metainfo/vokoscreenNG.appdata.xml
       - sed -i 's|'/usr/bin/'||' ${FLATPAK_DEST}/share/applications/vokoscreenNG.desktop
-sources:
+    sources:
       - type: git
         url: https://github.com/vkohaupt/vokoscreenNG.git
         tag: 3.2.0
