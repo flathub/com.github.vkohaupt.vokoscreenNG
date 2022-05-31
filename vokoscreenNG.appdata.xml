@@ -7,18 +7,18 @@
   <project_license>GPL-2.0-only</project_license>
   <description>
     <p>
-      VokoscreenNG can be used to record videos from computers screen, webcams,  external cameras, etc. This graphical tool can produce educational videos,  live recordings of browser navigation, tutorials of installations, record  videoconferences, etc. You can capture an alone video or video and sound.
+      vokoscreenNG is a powerful screencast creator in 41 languages to record the screen, an area or a window (Linux only). Recording of audio from multiple sources is supported. With the built-in camera support, you can make your video more personal. Other tools such as systray, magnifying glass, countdown, timer, Showclick and Halo support will help you do a good job.
     </p>
     <p>
       This program can save files in some formats and use some codecs for video  and audio:
     </p>
     <ul>
-      <li>Video: x264, openh264, H.264 (Intel GPU), MPEG-2 (Intel GPU) and VP8.</li>
-      <li>Audio: vorbis, flac, opus, mp3 and aac.</li>
+      <li>Video: H.264(x264, openh264), VP8</li>
+      <li>Audio: vorbis, flac, opus and mp3.</li>
       <li>File: mkv, webm, avi, mp4 and mov.</li>
     </ul>
     <p>
-      vokoscreenNG is a modern full replacement for vokoscreen, both written by  Volker Kohaupt. The main difference is that vokoscreen uses ffmpeg as base,  while vokoscreenNG has been rewritten from scratch and is based in GStreamer.
+      vokoscreenNG is a modern full replacement for vokoscreen, both written by Volker Kohaupt. The main difference is that vokoscreen uses ffmpeg as base, while vokoscreenNG has been rewritten from scratch and is based in GStreamer.
     </p>
   </description>
   <url type="homepage">https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html</url>
