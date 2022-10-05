@@ -13,8 +13,7 @@ finish-args:
   - --socket=wayland
   - --socket=fallback-x11
   - --socket=pulseaudio
-  - --filesystem=xdg-videos
-  - --filesystem=xdg-pictures
+  - --filesystem=host
   - --talk-name=org.kde.StatusNotifierWatcher
 
 modules:
