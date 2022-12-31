@@ -28,6 +28,7 @@ modules:
       - type: git
         url: https://code.videolan.org/videolan/x264.git
         branch: stable
+        commit: baee400fa9ced6f5481a728138fed6e867b0ff7f
 
   - name: gstreamer-plugins-ugly
     buildsystem: meson
@@ -49,8 +50,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/vkohaupt/vokoscreenNG.git
-        tag: 3.4.0
-        commit: 1f883c7dd408ee8ebfd4a2b548372bff94ce8dd7
+        tag: 3.5.0
+        commit: 0ddf1e1c9f9465816e5c85725a096909861b9329
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
