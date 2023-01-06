@@ -13,7 +13,7 @@
       This program can save files in some formats and use some codecs for video  and audio:
     </p>
     <ul>
-      <li>Video: H.264(x264, openh264), VP8</li>
+      <li>Video: H.264, VP8</li>
       <li>Audio: vorbis, flac, opus and mp3.</li>
       <li>File: mkv, webm, avi, mp4 and mov.</li>
     </ul>
