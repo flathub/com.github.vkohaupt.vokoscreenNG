@@ -1,6 +1,6 @@
 app-id: com.github.vkohaupt.vokoscreenNG
 runtime: org.kde.Platform
-runtime-version: 6.5
+runtime-version: 6.6
 sdk: org.kde.Sdk
 command: vokoscreenNG
 rename-desktop-file: vokoscreenNG.desktop
@@ -28,7 +28,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/vkohaupt/vokoscreenNG.git
-        tag: 4.0.0
+        tag: 4.1.0
         commit: 63c7eec6d5765435f79340c5758f37af3bf1567e
         x-checker-data:
           type: git
