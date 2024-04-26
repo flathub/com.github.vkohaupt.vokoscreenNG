@@ -24,7 +24,7 @@
   <url type="homepage">https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html</url>
   <url type="bugtracker">https://github.com/vkohaupt/vokoscreenNG/issues</url>
   <url type="donation">https://linuxecke.volkoh.de/vokoscreen/vokoscreen-donate.html</url>
-  <developer_name>Volker Kohaupt</developer_name>
+  <developer>Volker Kohaupt</developer>
   <launchable type="desktop-id">vokoscreenNG.desktop</launchable>
   <screenshots>
     <screenshot type="default">
