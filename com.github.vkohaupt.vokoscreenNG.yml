@@ -14,6 +14,7 @@ finish-args:
   - --socket=fallback-x11
   - --socket=pulseaudio
   - --filesystem=home
+  - --filesystem=host
   - --talk-name=org.kde.StatusNotifierWatcher
 
 modules:
