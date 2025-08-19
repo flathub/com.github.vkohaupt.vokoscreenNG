@@ -13,6 +13,7 @@
       This program can save files in some formats and use some codecs for video  and audio:
     </p>
     <ul>
+      <b>X11</b>
       <li>Format: mkv, gif, mp4</li>
       <li>Video: H.264, gif</li>
       <li>Audio: mp3, opus</li>
