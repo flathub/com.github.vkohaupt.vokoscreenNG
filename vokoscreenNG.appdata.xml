@@ -7,8 +7,12 @@
   <project_license>GPL-2.0-only</project_license>
   <description>
     <p>
-      vokoscreenNG is a powerful screencast creator in many languages to record the screen, an area or a window (Linux only). Recording of audio from multiple sources is supported. With the built-in camera support, you can make your video more personal. Other tools such as systray, magnifying glass, countdown, timer, Showclick and Halo support will help you do a good job.
+      vokoscreenNG is a powerful screencast creator in many languages to record the screen, an area or a window. Recording of audio from multiple sources is supported. With the built-in camera support, you can make your video more personal. 
     </p>
+    <p>X11 tools:</p>
+    <p>Countdown, Snapshot, systray, magnifying glass, timer, Showclick and Halo support will help you do a good job.</p>
+    <p>Wayland tools:</p>
+    <p>Countdown, Snapshot, Convert, Separated-audio-tracks</p>
     <p>
       This program can save files in some formats and use some codecs for video  and audio:
     </p>
