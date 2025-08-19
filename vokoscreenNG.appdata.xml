@@ -18,8 +18,8 @@
       <li>Video: H.264, gif</li>
       <li>Audio: mp3, opus</li>
     </ul>
-    <p>Wayland:</p>
     <ul>
+      <p>Wayland:</p>
       <li>Format: mkv</li>
       <li>Video: H.264</li>
       <li>Audio: mp3, opus</li>
