@@ -5,17 +5,40 @@
   <summary>Easy to use screencast creator</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-only</project_license>
-  <description>
+<description>
     <p>
-      vokoscreenNG is a powerful screencast creator in many languages to record the screen, an area or a window (Linux only). Recording of audio from multiple sources is supported. With the built-in camera support, you can make your video more personal. Other tools such as systray, magnifying glass, countdown, timer, Showclick and Halo support will help you do a good job.
+      vokoscreenNG is a powerful screencast creator in many languages to record the screen, an area or a window. Recording of audio from multiple sources is supported. With the built-in camera support, you can make your video more personal.
+      <br><br>
+      <b>X11 tools</b>
+      <br>
+       Countdown, Snapshot, systray, magnifying glass, timer, Showclick and Halo support will help you do a good job.
+      <br><br>
+      <b>Wayland tools</b>
+      <br>
+      Countdown, Snapshot, Convert, Separated-audio-tracks
     </p>
     <p>
-      This program can save files in some formats and use some codecs for video  and audio:
+      This program can save files in some formats and use some codecs for video and audio:
     </p>
     <ul>
-      <li>Video: H.264, VP8</li>
-      <li>Audio: vorbis, flac, opus and mp3.</li>
-      <li>File: mkv, webm, avi, mp4 and mov.</li>
+    <b>X11</b>
+      <li>Format: mkv, gif, mp4</li>
+      <li>Video: H.264, GIF</li>
+      <li>Audio: mp3, opus</li>
+    <br>
+    <b>Wayland</b>
+      <li>Format: mkv</li>
+      <li>Video: H.264</li>
+      <li>Audio: mp3, opus</li>
+      <br>
+      <b>After record under Wayland you can convert into</b>
+      <li>webm, gif, mp4</li>
+      <br>
+      <b>Wayland compatibility</b>
+      <li>pipewire &gt;= 1.0.0</li>
+      <li>gstreamer-plugin-pipewire &gt;= 1.0.0</li>
+      <li>xdg-desktop-portal &gt;= 1.18.2</li>
+      <li>xdg-desktop-portal-(kde, gtk, gnome ...)</li>
     </ul>
     <p>
       vokoscreenNG is a modern full replacement for vokoscreen, both written by Volker Kohaupt. The main difference is that vokoscreen uses ffmpeg as base, while vokoscreenNG has been rewritten from scratch and is based in GStreamer.
