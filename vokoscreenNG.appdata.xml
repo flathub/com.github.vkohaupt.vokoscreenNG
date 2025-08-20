@@ -11,7 +11,7 @@
     </p>
     <p>X11:</p>
     <ul>
-      <li>Tools: Countdown, Snapshot, systray, magnifying glass, timer, Showclick and Halo support will help you do a good job.</li>
+      <li>Tools: Countdown, Snapshot, Systray, Magnifying glass, Timer, Showclick, Halo, Darkmode, Global keyboard shortcuts, Build-in Videoplayer</li>
       <li>Format: mkv, gif, mp4</li>
       <li>Video: H.264, gif</li>
       <li>Audio: mp3, opus</li>
@@ -22,7 +22,7 @@
       <li>Format: mkv</li>
       <li>Video: H.264</li>
       <li>Audio: mp3, opus</li>
-      <li>After record you can convert into webm, gif or mp4</li>
+      <li>After record you can convert into webm, gif or mp4.</li>
     </ul>
     <p>vokoscreenNG is a modern full replacement for vokoscreen, both written by Volker Kohaupt. The main difference is that vokoscreen uses ffmpeg as base, while vokoscreenNG has been rewritten from scratch and is based in GStreamer.</p>
   </description>
