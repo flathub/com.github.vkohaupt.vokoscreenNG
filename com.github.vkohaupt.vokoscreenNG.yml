@@ -15,6 +15,7 @@ finish-args:
   - --socket=pulseaudio
   - --filesystem=host-os
   - --talk-name=org.kde.StatusNotifierWatcher
+  - --system-talk-name=org.freedesktop.Flatpak
 
 modules:
   - name: vokoscreenNG
