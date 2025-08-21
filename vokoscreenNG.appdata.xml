@@ -15,6 +15,7 @@
       <li>Format: mkv, gif, mp4</li>
       <li>Video: H.264, gif</li>
       <li>Audio: mp3, opus</li>
+      <li>Minimum run-time requirements: https://github.com/vkohaupt/vokoscreenNG?tab=readme-ov-file#wayland</li>
     </ul>
     <p>Wayland:</p>
     <ul>
