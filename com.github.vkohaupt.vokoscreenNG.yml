@@ -28,8 +28,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/vkohaupt/vokoscreenNG.git
-        tag: 4.6.2
-        commit: 8e699f16080eeda802fcb5cd371878802dd6c32d
+        tag: 4.7.0
+        commit: 2ac61a3765a7e54eb48ec2cd109f03530b17e20b
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
