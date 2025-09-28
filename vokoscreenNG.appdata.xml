@@ -18,7 +18,7 @@
     </ul>
     <p>Wayland:</p>
     <ul>
-      <li>Note: Vokoscreen for Wayland is a standalone development and has nothing to do with X11.</li>
+      <li>Note: Vokoscreen for Wayland is a standalone development and has nothing to do with X11</li>
       <li>Tools: Countdown, Snapshot, Convert, Separated-audio-tracks</li>
       <li>Format: mkv</li>
       <li>Video: H.264</li>
