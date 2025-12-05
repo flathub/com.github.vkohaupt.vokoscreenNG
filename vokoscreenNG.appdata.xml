@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>com.github.vkohaupt.vokoscreenNG</id>
+  <id>com.github.vkohaupt.vokoscreenng</id>
   <name>vokoscreenNG</name>
   <summary>Easy to use screencast creator</summary>
   <metadata_license>CC0-1.0</metadata_license>
@@ -24,7 +24,6 @@
       <li>Video: H.264</li>
       <li>Audio: mp3, opus</li>
       <li>After record you can convert into webm, gif or mp4.</li>
-      <li>Minimum run-time requirements: https://github.com/vkohaupt/vokoscreenNG?tab=readme-ov-file#wayland</li>
     </ul>
     <p>vokoscreenNG is a modern full replacement for vokoscreen, both written by Volker Kohaupt. The main difference is that vokoscreen uses ffmpeg as base, while vokoscreenNG has been rewritten from scratch and is based in GStreamer.</p>
   </description>
