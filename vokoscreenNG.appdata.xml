@@ -30,6 +30,10 @@
   <developer id="com.github.vkohaupt.vokoscreenng">
       <name>Volker Kohaupt</name>
   </developer>
+  <branding>
+      <color type="primary" scheme_preference="light">#faa298</color>
+      <color type="primary" scheme_preference="dark">#7f2c22</color>
+  </branding>
   <url type="homepage">https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html</url>
   <url type="bugtracker">https://github.com/vkohaupt/vokoscreenNG/issues</url>
   <url type="donation">https://linuxecke.volkoh.de/vokoscreen/vokoscreen-donate.html</url>
