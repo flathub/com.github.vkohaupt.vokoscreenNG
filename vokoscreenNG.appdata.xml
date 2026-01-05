@@ -34,9 +34,14 @@
       <color type="primary" scheme_preference="light">#faa298</color>
       <color type="primary" scheme_preference="dark">#7f2c22</color>
   </branding>
-  <url type="homepage">https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html</url>
   <url type="bugtracker">https://github.com/vkohaupt/vokoscreenNG/issues</url>
+  <url type="homepage">https://linuxecke.volkoh.de/vokoscreen/vokoscreen.html</url>
   <url type="donation">https://linuxecke.volkoh.de/vokoscreen/vokoscreen-donate.html</url>
+  <url type="contact">https://github.com/vkohaupt/vokoscreenNG/issues</url>
+  <url type="faq">https://github.com/vkohaupt/vokoscreenNG/issues</url>
+  <url type="translate">https://explore.transifex.com/vkohaupt/vokoscreen/</url>
+  <url type="contribute">https://github.com/vkohaupt/vokoscreenNG</url>
+  <url type="vcs-browser">https://github.com/vkohaupt/vokoscreenNG</url>
   <launchable type="desktop-id">vokoscreenNG.desktop</launchable>
   <screenshots>
     <screenshot type="default">
