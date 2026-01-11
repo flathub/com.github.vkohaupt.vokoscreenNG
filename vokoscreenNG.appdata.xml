@@ -19,7 +19,7 @@
     <p>Wayland:</p>
     <ul>
       <li>Note: Vokoscreen for Wayland is a standalone development and has nothing to do with X11</li>
-      <li>To protect you from data loss, only the MKV format with the H.264 codec is used. See also https://linuxecke.volkoh.de/vokoscreen/vokoscreen-tips.html</li>
+      <li>Reliability: To protect you from data loss, only the MKV format with the H.264 codec is used. See also https://linuxecke.volkoh.de/vokoscreen/vokoscreen-tips.html</li>
       <li>Tools: Countdown, Snapshot, Convert, Separated-audio-tracks</li>
       <li>Format: mkv</li>
       <li>Video: H.264</li>
