@@ -32,8 +32,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/cisco/openh264.git
-        tag: v2.6.0
-        commit: 652bdb7719f30b52b08e506645a7322ff1b2cc6f
+        tag: 2.5.1
+        commit: e79561922cc82bf968a4fb8e9aa8fc33e37c1bce
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
