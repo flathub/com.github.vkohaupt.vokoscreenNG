@@ -2,6 +2,8 @@ app-id: com.github.vkohaupt.vokoscreenNG
 runtime: org.kde.Platform
 runtime-version: 6.10
 sdk: org.kde.Sdk
+base: io.qt.qtwebengine.BaseApp
+base-version: '6.10'
 command: vokoscreenNG
 rename-desktop-file: vokoscreenNG.desktop
 rename-appdata-file: vokoscreenNG.appdata.xml
@@ -16,7 +18,8 @@ finish-args:
   - --filesystem=home
   - --talk-name=org.kde.StatusNotifierWatcher
   - --filesystem=xdg-run/pipewire-0
-
+  - --env=QTWEBENGINEPROCESS_PATH=/app/bin/QtWebEngineProcess
+  
 modules:
 #   gstreamer-plugins-good wird benötigt da in GStreamer 1.26.10 ximagesrc nicht vorhanden ist
   - name: gstreamer-plugins-good
@@ -50,6 +53,13 @@ modules:
   - name: vokoscreenNG
     buildsystem: qmake
     subdir: src
+    build-options:
+      env:
+        QMAKEPATH: /app # WICHTIG: qmake Basis-Pfad setzen
+    config-opts:
+      - QMAKE_INCDIR+=/app/include/QtWebEngine # Header-Pfade hinzufügen
+      - QMAKE_INCDIR+=/app/include/QtWebEngineCore
+      - QMAKE_INCDIR+=/app/include/QtWebEngineWidgets    
     post-install:
       - install -Dm755 vokoscreenNG ${FLATPAK_DEST}/bin/vokoscreenNG
       - install -Dm644 applications/vokoscreenNG.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/vokoscreenNG.png
