@@ -18,15 +18,13 @@
     </ul>
     <p>Wayland:</p>
     <ul>
-      <li>Note: Vokoscreen for Wayland is a standalone development and has nothing to do with X11</li>
-      <li>Reliability: To protect you from data loss, only the MKV format with the H.264 codec is used. See also https://linuxecke.volkoh.de/vokoscreen/vokoscreen-tips.html</li>
-      <li>Tools: Countdown, Snapshot, Convert, Separated-audio-tracks</li>
+      <li>Tools: Systray, Audio, Countdown, Camera, Snapshot, Convert, Separated-audio-tracks, 100% translated into over 75 languages.</li>
       <li>Format: mkv</li>
       <li>Video: H.264</li>
       <li>Audio: mp3, opus</li>
-      <li>After record you can convert into webm, gif or mp4.</li>
+      <li>Converter: mp4, webm, gif</li>
     </ul>
-    <p>vokoscreenNG is a modern full replacement for vokoscreen, both written by Volker Kohaupt. The main difference is that vokoscreen uses ffmpeg as base, while vokoscreenNG has been rewritten from scratch and is based in GStreamer.</p>
+    <p></p>
   </description>
   <developer id="com.github.vkohaupt.vokoscreenng">
       <name>Volker Kohaupt</name>
