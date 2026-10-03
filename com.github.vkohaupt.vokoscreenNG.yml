@@ -19,7 +19,7 @@ finish-args:
   - --talk-name=org.kde.StatusNotifierWatcher
   - --filesystem=xdg-run/pipewire-0
   - --env=QTWEBENGINEPROCESS_PATH=/app/bin/QtWebEngineProcess
-  
+
 modules:
 #   gstreamer-plugins-good wird benötigt da in GStreamer 1.26.10 ximagesrc nicht vorhanden ist
   - name: gstreamer-plugins-good
@@ -59,7 +59,7 @@ modules:
     config-opts:
       - QMAKE_INCDIR+=/app/include/QtWebEngine # Header-Pfade hinzufügen
       - QMAKE_INCDIR+=/app/include/QtWebEngineCore
-      - QMAKE_INCDIR+=/app/include/QtWebEngineWidgets    
+      - QMAKE_INCDIR+=/app/include/QtWebEngineWidgets
     post-install:
       - install -Dm755 vokoscreenNG ${FLATPAK_DEST}/bin/vokoscreenNG
       - install -Dm644 applications/vokoscreenNG.png ${FLATPAK_DEST}/share/icons/hicolor/256x256/apps/vokoscreenNG.png
@@ -68,8 +68,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/vkohaupt/vokoscreenNG.git
-        tag: 4.10.0
-        commit: f851473514be1054da70e037fce528b8e681f158
+        tag: 4.11.0
+        commit: 2f1c860425f1c92e2f2a358cfc9517240808f96a
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
