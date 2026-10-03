@@ -11,18 +11,17 @@
     </p>
     <p>X11:</p>
     <ul>
-      <li>Tools: Countdown, Snapshot, Systray, Magnifying glass, Timer, Showclick, Halo, Darkmode, Global keyboard shortcuts, Build-in Videoplayer, Camera</li>
+      <li>Tools: Camera, Multiscreen, Countdown, Snapshot, Systray, Audio, Magnifying glass, Timer, Showclick, Halo, Darkmode, Global keyboard shortcuts, Build-in Videoplayer, 100% translated into over 80 languages</li>
       <li>Format: mkv, gif, mp4</li>
       <li>Video: H.264, gif</li>
       <li>Audio: mp3, opus</li>
     </ul>
     <p>Wayland:</p>
     <ul>
-      <li>Tools: Systray, Audio, Countdown, Camera, Snapshot, Convert, Separated-audio-tracks, 100% translated into over 75 languages</li>
-      <li>Format: mkv</li>
+      <li>Tools: Camera, Multiscreen, CountDown, Snapshot, Systray, Audio, Separated-audio-tracks, 100% translated into over 80 languages</li>
+      <li>Format: mkv, mp4, gif</li>
       <li>Video: H.264</li>
       <li>Audio: mp3, opus</li>
-      <li>Convert: mp4, webm, gif</li>
     </ul>
   </description>
   <developer id="com.github.vkohaupt.vokoscreenng">
@@ -85,6 +84,6 @@
   </screenshots>
   <content_rating type="oars-1.0" />
   <releases>
-    <release version="4.10.0" date="2026-07-01"/>
+    <release version="4.11.0" date="2026-10-01"/>
   </releases>
 </component>
