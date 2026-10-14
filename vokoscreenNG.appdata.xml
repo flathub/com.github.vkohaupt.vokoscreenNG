@@ -2,25 +2,25 @@
 <component type="desktop-application">
   <id>com.github.vkohaupt.vokoscreenNG</id>
   <name>vokoscreenNG</name>
-  <summary>Easy to use screencast creator</summary>
+  <summary>vokoscreenNG is the most popular and powerful screen recorder for Wayland, Linux-X11, and Windows</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>GPL-2.0-only</project_license>
   <description>
     <p>
-      vokoscreenNG is a powerful screencast creator in many languages to record the screen, an area or a window. Recording of audio from multiple sources is supported. With the built-in camera support, you can make your video more personal.
+      vokoscreenNG is a powerful screencast creator to record the screen, an area or a window. Recording of audio from multiple sources is supported. With the built-in camera support, you can make your video more personal.
     </p>
     <p>X11:</p>
     <ul>
-      <li>Tools: Camera, Multiscreen, Countdown, Snapshot, Systray, Audio, Magnifying glass, Timer, Showclick, Halo, Darkmode, Global keyboard shortcuts, Build-in Videoplayer, 100% translated into over 80 languages</li>
-      <li>Format: mkv, gif, mp4</li>
+      <li>Tools: Multiscreen, Systray, Camera, Audio, Magnifying glass, Countdown, Timer, Showclick, Halo, Snapshot, Build-in Videoplayer, Global keyboard shortcuts, Darkmode, 100% translated into over 80 languages</li>
+      <li>Format: mkv, mp4, gif</li>
       <li>Video: H.264, gif</li>
-      <li>Audio: mp3, opus</li>
+      <li>Audio: mp3, opus, flac, vorbis</li>
     </ul>
     <p>Wayland:</p>
     <ul>
-      <li>Tools: Camera, Multiscreen, CountDown, Snapshot, Systray, Audio, Separated-audio-tracks, 100% translated into over 80 languages</li>
+      <li>Tools: Multiscreen, Systray, Audio, Countdown, Camera, Snapshot, Separated-audio-tracks, 100% translated into over 80 languages</li>
       <li>Format: mkv, mp4, gif</li>
-      <li>Video: H.264</li>
+      <li>Video: H.264, gif</li>
       <li>Audio: mp3, opus</li>
     </ul>
   </description>
