@@ -19,6 +19,7 @@ finish-args:
   - --talk-name=org.kde.StatusNotifierWatcher
   - --filesystem=xdg-run/pipewire-0
   - --env=QTWEBENGINEPROCESS_PATH=/app/bin/QtWebEngineProcess
+  - --env=GST_PLUGIN_FEATURE_RANK=openh264dec:MAX
 
 modules:
 #   gstreamer-plugins-good wird benötigt da in GStreamer 1.26.10 ximagesrc nicht vorhanden ist
