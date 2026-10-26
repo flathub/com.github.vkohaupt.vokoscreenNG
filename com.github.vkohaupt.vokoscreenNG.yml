@@ -23,12 +23,14 @@ finish-args:
 
 modules:
 #   gstreamer-plugins-good wird benötigt da in GStreamer 1.26.10 ximagesrc nicht vorhanden ist
+#   Aktuell am 26.10.2026 mit org.kde.platform 6.11 ist Gstreamer 1.16.11
+#   Geändert am 26.10.2026 von 1.26.10 zu 1.26.11
   - name: gstreamer-plugins-good
     buildsystem: meson
     sources:
       - type: archive
-        url: https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.26.10.tar.xz
-        sha256: 7beacb5daba3c6751ebc1c85017d9b1d6de64e24798125932c73c8b1dbeb3bc9
+        url: https://gstreamer.freedesktop.org/src/gst-plugins-good/gst-plugins-good-1.26.11.tar.xz
+        sha256: 001deb0876d5d743cd3448abf74a27adec3fd850012fcb1b00994861bd6c1145
 
 #   Für das kompilieren von gstreamer-plugins-bad wird als runtime der openh264 codec benötigt
   - name: openh264
@@ -41,15 +43,15 @@ modules:
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
-#        branch: v2.6.0
 
 #   gstreamer-plugins-bad beinhaltet openh264enc
+#   Geändert am 26.10.2026 von 1.26.10 zu 1.26.11
   - name: gstreamer-plugins-bad
     buildsystem: meson
     sources:
       - type: archive
-        url: https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.26.10.tar.xz
-        sha256: fec973dff512b507d9dcb5a828e04e061e52188f4d5989e953aed6a41beda437
+        url: https://gstreamer.freedesktop.org/src/gst-plugins-bad/gst-plugins-bad-1.26.11.tar.xz
+        sha256: 110fb82795f0e569b1e27b12ab9699d35c7762e1ff4db95335d6ac8d1442af3d
 
   - name: vokoscreenNG
     buildsystem: qmake
