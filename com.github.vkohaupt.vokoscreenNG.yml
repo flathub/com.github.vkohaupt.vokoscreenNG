@@ -33,13 +33,14 @@ modules:
         sha256: 001deb0876d5d743cd3448abf74a27adec3fd850012fcb1b00994861bd6c1145
 
 #   Für das kompilieren von gstreamer-plugins-bad wird als runtime der openh264 codec benötigt
+#   Geändert am 26.10.2026 von 2.5.1 zu v2.7.0
   - name: openh264
     buildsystem: meson
     sources:
       - type: git
         url: https://github.com/cisco/openh264.git
-        tag: 2.5.1
-        commit: e79561922cc82bf968a4fb8e9aa8fc33e37c1bce
+        tag: v2.7.0
+        commit: 1bca62311e447fd9c39fc93de2c4b96cd5ce971c
         x-checker-data:
           type: git
           tag-pattern: ^([\d.]+)$
