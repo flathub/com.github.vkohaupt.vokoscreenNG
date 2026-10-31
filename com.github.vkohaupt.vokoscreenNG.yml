@@ -72,8 +72,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/vkohaupt/vokoscreenNG.git
-        tag: 4.11.0
-        commit: 2f1c860425f1c92e2f2a358cfc9517240808f96a
+        tag: 4.11.1
+        commit: cdfd754eaa706251219032c674832362c2504188
 #   Remarked am 31.10.2026     
 #        x-checker-data:
 #          type: git
