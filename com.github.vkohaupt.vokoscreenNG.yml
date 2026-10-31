@@ -74,8 +74,9 @@ modules:
         url: https://github.com/vkohaupt/vokoscreenNG.git
         tag: 4.11.0
         commit: 2f1c860425f1c92e2f2a358cfc9517240808f96a
-        x-checker-data:
-          type: git
-          tag-pattern: ^([\d.]+)$
+#   Remarked am 31.10.2026     
+#        x-checker-data:
+#          type: git
+#          tag-pattern: ^([\d.]+)$
       - type: file
         path: vokoscreenNG.appdata.xml
