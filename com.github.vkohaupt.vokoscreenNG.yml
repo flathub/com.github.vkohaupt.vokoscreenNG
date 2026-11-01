@@ -42,8 +42,10 @@ modules:
         tag: v2.7.0
         commit: 1bca62311e447fd9c39fc93de2c4b96cd5ce971c
         x-checker-data:
-          type: git
-          tag-pattern: ^([\d.]+)$
+#  Eingefügt am 01.11.2026        
+          type: passthrough # Sagt dem Bot: "Nur durchreichen, nicht automatisch updaten!"
+#          type: git
+#          tag-pattern: ^([\d.]+)$
 
 #   gstreamer-plugins-bad beinhaltet openh264enc
 #   Geändert am 26.10.2026 von 1.26.10 zu 1.26.11
@@ -74,9 +76,8 @@ modules:
         url: https://github.com/vkohaupt/vokoscreenNG.git
         tag: 4.11.1
         commit: cdfd754eaa706251219032c674832362c2504188
-#   Remarked am 31.10.2026     
-#        x-checker-data:
-#          type: git
-#          tag-pattern: ^([\d.]+)$
+        x-checker-data:
+          type: git
+          tag-pattern: ^([\d.]+)$
       - type: file
         path: vokoscreenNG.appdata.xml
