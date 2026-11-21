@@ -63,8 +63,8 @@ modules:
     buildsystem: cmake
     sources:
       - type: archive
-        url: https://download.kde.org/stable/plasma/6.6.4/layer-shell-qt-6.6.4.tar.xz
-        sha256: 731af7a222bc1a1e87fd993060ed8fa515b4b38cbc294063b700ec87451e013f
+        url: https://download.kde.org/stable/plasma/6.8.3/layer-shell-qt-6.8.3.tar.xz
+        sha256: af3e56be10eb95a5993600449d6c811a08d491f7905c40a1203040b5baf98f9e
 
   - name: vokoscreenNG
     buildsystem: qmake
