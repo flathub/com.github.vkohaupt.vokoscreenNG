@@ -1,4 +1,4 @@
-app-id: com.github.vkohaupt.vokoscreenNG
+app-id: io.github.vkohaupt.vokoscreenNG
 runtime: org.kde.Platform
 runtime-version: 6.11
 sdk: org.kde.Sdk
