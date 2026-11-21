@@ -25,7 +25,7 @@ finish-args:
   - --env=GST_PLUGIN_FEATURE_RANK=openh264dec:MAX
 
 modules:
-#   gstreamer-plugins-good wird benötigt da in GStreamer 1.26.10 ximagesrc nicht vorhanden ist
+#   gstreamer-plugins-good wird benötigt da in GStreamer 1.26.10 ximagesrc nicht vorhanden ist.
 #   Aktuell am 26.10.2026 mit org.kde.platform 6.11 ist Gstreamer 1.16.11
 #   Geändert am 26.10.2026 von 1.26.10 zu 1.26.11
   - name: gstreamer-plugins-good
